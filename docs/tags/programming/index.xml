@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Fundamentals of Mathematical Statistics</title>
+    <link>https://wtbacon.github.io/stat-basis/tags/programming/</link>
+    <description>Recent content in Programming on Fundamentals of Mathematical Statistics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://wtbacon.github.io/stat-basis/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to add pages to the menu</title>
+      <link>https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Markdown Cheat Sheet &middot; Fundamentals of Mathematical Statistics</title>
+    <meta name="generator" content="Hugo 0.54.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Stat-Basis">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/"/>
+    <link rel="icon" href="https://wtbacon.github.io/stat-basis/favicon.ico">
+    <link rel="apple-touch-icon" href="https://wtbacon.github.io/stat-basis/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/style.css">
+    <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/monokai.css">
+    <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="Markdown Cheat Sheet" />
+<meta property="og:description" content="This note demonstrates some of what Markdown is capable of doing.
+
+Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" />
+<meta property="article:published_time" content="2017-05-20T12:10:51&#43;02:00"/>
+<meta property="article:modified_time" content="2017-05-20T12:10:51&#43;02:00"/>
+
+    
+    
+<meta itemprop="name" content="Markdown Cheat Sheet">
+<meta itemprop="description" content="This note demonstrates some of what Markdown is capable of doing.
+
+Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself.">
+
+
+<meta itemprop="datePublished" content="2017-05-20T12:10:51&#43;02:00" />
+<meta itemprop="dateModified" content="2017-05-20T12:10:51&#43;02:00" />
+<meta itemprop="wordCount" content="420">
+
+
+
+<meta itemprop="keywords" content="markdown," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown Cheat Sheet"/>
+<meta name="twitter:description" content="This note demonstrates some of what Markdown is capable of doing.
+
+Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself."/>
+<meta name="twitter:site" content="@spf13"/>
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://wtbacon.github.io/stat-basis/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://wtbacon.github.io/stat-basis/css/images/logo.png')"></i>
+          
+          <span class="site-title">Fundamentals of Mathematical Statistics</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://wtbacon.github.io/">Home</a>
+          
+          
+          
+          
+          
+          
+
+          
+          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/about/">About</a>
+          
+          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a>
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/tags/">Tags</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/categories/">Categories</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://wtbacon.github.io/stat-basis/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://wtbacon.github.io/stat-basis/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/">Home</a></td>
+          
+          
+          
+          
+          
+          
+
+          
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/about/">About</a></td>
+          
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a></td>
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/tags/">Tags</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/categories/">Categories</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://wtbacon.github.io/stat-basis/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://www.gravatar.com/avatar/4fca794da0cf08804f99048d3c8b39c1?s=100&d=identicon"/>
+      
+      <h2 id="name">Stat-Basis</h2>
+      <h3 id="title">Blogger - Programmer - Gopher</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>SHIBUYA MARK CITY</span>
+      
+          <a id="follow" href="https://github.com/WTBacon/stat-basis.github.io">
+              Follow
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        4
+        <span>Posts</span>
+      </div>
+      <div class="article-info-block">
+        
+          5
+        
+        <span>
+            Tags
+        </span>
+      </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/WTBacon" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/spf13" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="https://wtbacon.github.io/stat-basis/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/">
+    <h1 class="article-title" itemprop="name">
+        Markdown Cheat Sheet
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+            &middot;
+            420
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+            
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://wtbacon.github.io/stat-basis/tags/markdown">markdown</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>This note demonstrates some of what <a href="http://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
+
+<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn&rsquo;t automatically save itself.</em></p>
+
+<h2 id="basic-formatting">Basic formatting</h2>
+
+<p>Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</p>
+
+<p>Paragraphs must be separated by a blank line. Basic formatting of <em>italics</em> and <strong>bold</strong> is supported. This *can be <strong>nested</strong> like* so.</p>
+
+<h2 id="lists">Lists</h2>
+
+<h3 id="ordered-list">Ordered list</h3>
+
+<ol>
+<li>Item 1</li>
+<li>A second item</li>
+<li>Number 3</li>
+<li>Ⅳ</li>
+</ol>
+
+<p><em>Note: the fourth item uses the Unicode character for <a href="http://www.fileformat.info/info/unicode/char/2163/index.htm">Roman numeral four</a>.</em></p>
+
+<h3 id="unordered-list">Unordered list</h3>
+
+<ul>
+<li>An item</li>
+<li>Another item</li>
+<li>Yet another item</li>
+<li>And there&rsquo;s more&hellip;</li>
+</ul>
+
+<h2 id="paragraph-modifiers">Paragraph modifiers</h2>
+
+<h3 id="code-block">Code block</h3>
+
+<pre><code>Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
+</code></pre>
+
+<p>You can also make <code>inline code</code> to add code into other things.</p>
+
+<h3 id="quote">Quote</h3>
+
+<blockquote>
+<p>Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.</p>
+</blockquote>
+
+<h2 id="headings">Headings</h2>
+
+<p>There are six levels of headings. They correspond with the six levels of HTML headings. You&rsquo;ve probably noticed them already in the page. Each level down uses one more hash character.</p>
+
+<h3 id="headings-can-also-contain-formatting">Headings <em>can</em> also contain <strong>formatting</strong></h3>
+
+<h3 id="they-can-even-contain-inline-code">They can even contain <code>inline code</code></h3>
+
+<p>Of course, demonstrating what headings look like messes up the structure of the page.</p>
+
+<p>I don&rsquo;t recommend using more than three or four levels of headings here, because, when you&rsquo;re smallest heading isn&rsquo;t too small, and you&rsquo;re largest heading isn&rsquo;t too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</p>
+
+<h2 id="urls">URLs</h2>
+
+<p>URLs can be made in a handful of ways:</p>
+
+<ul>
+<li>A named link to <a href="http://www.markitdown.net/">MarkItDown</a>. The easiest way to do these is to select what you want to make a link and hit <code>Ctrl+L</code>.</li>
+<li>Another named link to <a href="http://www.markitdown.net/">MarkItDown</a></li>
+<li>Sometimes you just want a URL like <a href="http://www.markitdown.net/">http://www.markitdown.net/</a>.</li>
+</ul>
+
+<h2 id="horizontal-rule">Horizontal rule</h2>
+
+<p>A horizontal rule is a line that goes across the middle of the page.</p>
+
+<hr />
+
+<p>It&rsquo;s sometimes handy for breaking things up.</p>
+
+<h2 id="images">Images</h2>
+
+<p>Markdown can also contain images. I&rsquo;ll need to add something here sometime.</p>
+
+<h2 id="finally">Finally</h2>
+
+<p>There&rsquo;s actually a lot more to Markdown than this. See the official <a href="http://daringfireball.net/projects/markdown/basics">introduction</a> and <a href="http://daringfireball.net/projects/markdown/syntax">syntax</a> for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</p>
+
+<!--more-->
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" data-id="74a465046a917f5d40c5e9a053394724" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">Using the gallery shortcode</div>
+    </a>
+    
+
+    
+</nav>
+
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Stat-Basis" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
+
+    </section>
+
+   	
+    	<aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recents
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" class="title">Markdown Cheat Sheet</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/" class="title">Using the gallery shortcode</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 12:00:23 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/" class="title">Formulas with MathJax</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 11:58:06 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/placeholder.png)" alt="Markdown Cheat Sheet" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://wtbacon.github.io/stat-basis/categories/programming">
+                        programming
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/" class="title">How to add pages to the menu</a></p>
+                    <p class="item-date">
+                        <time datetime="2015-10-02 21:49:20 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-02</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/categories/programming">
+                    programming
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/golang">
+                    golang
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/programming">
+                    programming
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/theme">
+                    theme
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://wtbacon.github.io/stat-basis/tags/golang" style="font-size: 12px;">golang</a>
+        
+        
+        <a href="https://wtbacon.github.io/stat-basis/tags/hugo" style="font-size: 12px;">hugo</a>
+        
+        
+        <a href="https://wtbacon.github.io/stat-basis/tags/markdown" style="font-size: 12px;">markdown</a>
+        
+        
+        <a href="https://wtbacon.github.io/stat-basis/tags/programming" style="font-size: 12px;">programming</a>
+        
+        
+        <a href="https://wtbacon.github.io/stat-basis/tags/theme" style="font-size: 12px;">theme</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://wtbacon.github.io/stat-basis/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://wtbacon.github.io/stat-basis/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

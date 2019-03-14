@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentals of Mathematical Statistics</title>
+    <link>https://wtbacon.github.io/stat-basis/</link>
+    <description>Recent content on Fundamentals of Mathematical Statistics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2017 12:10:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://wtbacon.github.io/stat-basis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/</link>
+      <pubDate>Sat, 20 May 2017 12:10:51 +0200</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/</guid>
+      <description>&lt;p&gt;This note demonstrates some of what &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is capable of doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Feel free to play with this page. Unlike regular notes, this doesn&amp;rsquo;t automatically save itself.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using the gallery shortcode</title>
+      <link>https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/</link>
+      <pubDate>Sat, 20 May 2017 12:00:23 +0200</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/</guid>
+      <description>&lt;p&gt;This way you can easily include a gallery into your page. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Formulas with MathJax</title>
+      <link>https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/</link>
+      <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/</guid>
+      <description>&lt;p&gt;Mathematical equations in form of LaTeX or MathML code can be rendered with the support of &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;. MathML works out of the box. If you&amp;rsquo;re using LaTeX you need to wrap your equation with &lt;code&gt;$$&lt;/code&gt; as shown in the following example:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to add pages to the menu</title>
+      <link>https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  </description>
+    </item>
+    
+  </channel>
+</rss>
