@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probability on Fundamentals of Mathematical Statistics</title>
+    <link>https://wtbacon.github.io/stat-basis/categories/probability/</link>
+    <description>Recent content in Probability on Fundamentals of Mathematical Statistics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wtbacon.github.io/stat-basis/categories/probability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Answer of Practice 1-2</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/</guid>
+      <description>$$ 事象 A_1, A_2, A_3 に対して次の等式を示せ. T = S((1 + \frac{E}{R})^{F} - 1) $$</description>
+    </item>
+    
+  </channel>
+</rss>
