@@ -51,7 +51,7 @@ canonifyurls = true
 [[params.menu]]
     before = true
     label  = "Home"
-    link   = "/"
+    link   = ""
 
 [[params.menu]]
     before = false

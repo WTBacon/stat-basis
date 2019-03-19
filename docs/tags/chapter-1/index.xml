@@ -17,7 +17,11 @@
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/</guid>
-      <description>$$ 事象 A_1, A_2, A_3 に対して次の等式を示せ. T = S((1 + \frac{E}{R})^{F} - 1) $$</description>
+      <description>問2 $$ 事象 A_1, A_2, A_3 に対して次の等式を示せ.\\
+P(A \cup B) = P(A) + P(B) - P(A \cap B) \quad より \\
+\begin{align} P(A_1 \cup (A_2 \cup A_3)) &amp;amp;= P(A_1) + P(A_2 \cup A_3) - P(A_1 \cap (A_2 \cup A_3)) \\
+&amp;amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - P(A_1 \cap (A_2 \cup A_3)) \\
+&amp;amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - (P(A_1 \cap A_3) + P(A_1 \cap A_2) - P(A_1 \cap A_2 \cap A_3)) \\</description>
     </item>
     
   </channel>

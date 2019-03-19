@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Stat-Basis">
     
-      <meta name="description" content="practice-1-2">
+      <meta name="description" content="The Answer of Practice 1-2">
     
     
     <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/"/>
@@ -21,7 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="The Answer of Practice 1-2" />
-<meta property="og:description" content="practice-1-2" />
+<meta property="og:description" content="The Answer of Practice 1-2" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" />
 <meta property="article:published_time" content="2019-03-19T00:00:00&#43;00:00"/>
@@ -30,12 +30,12 @@
     
     
 <meta itemprop="name" content="The Answer of Practice 1-2">
-<meta itemprop="description" content="practice-1-2">
+<meta itemprop="description" content="The Answer of Practice 1-2">
 
 
 <meta itemprop="datePublished" content="2019-03-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-03-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="14">
+<meta itemprop="wordCount" content="109">
 
 
 
@@ -43,7 +43,7 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Answer of Practice 1-2"/>
-<meta name="twitter:description" content="practice-1-2"/>
+<meta name="twitter:description" content="The Answer of Practice 1-2"/>
 <meta name="twitter:site" content="@spf13"/>
 
     
@@ -70,7 +70,7 @@
       <nav id="main-nav">
           
           
-          <a class="main-nav-link" href="https://wtbacon.github.io/">Home</a>
+          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/">Home</a>
           
           
           
@@ -80,8 +80,6 @@
 
           
           <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/about/">About</a>
-          
-          <a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a>
           
 
           
@@ -117,7 +115,7 @@
           <tr>
           
           
-          <td><a class="main-nav-link" href="https://wtbacon.github.io/">Home</a></td>
+          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/">Home</a></td>
           
           
           
@@ -127,8 +125,6 @@
 
           
           <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/about/">About</a></td>
-          
-          <td><a class="main-nav-link" href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/">How to add pages to the menu</a></td>
           
 
           
@@ -174,12 +170,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        5
+        1
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          6
+          1
         
         <span>
             Tags
@@ -275,7 +271,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2019-03-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-19</time>
             &middot;
-            14
+            109
             words
             &middot;
             1
@@ -313,9 +309,19 @@
 </header>
 
         <div class="article-entry" itemprop="articleBody">
-            <p>$$
-事象 A_1, A_2, A_3 に対して次の等式を示せ.
-T = S((1 + \frac{E}{R})^{F} - 1)
+            
+
+<h2 id="問2">問2</h2>
+
+<p>$$
+事象 A_1, A_2, A_3 に対して次の等式を示せ.\\<br />
+P(A \cup B) = P(A) +  P(B) - P(A \cap B) \quad より \\<br />
+\begin{align}
+P(A_1 \cup (A_2 \cup A_3)) &amp;=  P(A_1) + P(A_2 \cup A_3) - P(A_1 \cap (A_2 \cup A_3)) \\<br />
+&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) -  P(A_1 \cap (A_2 \cup A_3)) \\<br />
+&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - (P(A_1 \cap A_3) + P(A_1 \cap A_2) - P(A_1 \cap A_2 \cap A_3)) \\<br />
+&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_1 \cap A_2) - P(A_2 \cap A_3) - P(A_3 \cap A_1) + P(A_1 \cap A_2 \cap A_3) \Box
+\end{align}
 $$</p>
 
         </div>
@@ -399,19 +405,6 @@ $$</p>
     </div>
 
     
-<nav id="article-nav">
-    
-    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">
-          Older
-      </strong>
-      <div class="article-nav-title">Markdown Cheat Sheet</div>
-    </a>
-    
-
-    
-</nav>
-
 
 </article>
 
@@ -480,89 +473,6 @@ $$</p>
                 </div>
             </li>
             
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/markdown-cheat-sheet/" class="title">Markdown Cheat Sheet</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/using-the-gallery-shortcode/" class="title">Using the gallery shortcode</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-05-20 12:00:23 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/" class="thumbnail">
-                    
-                        <span class="thumbnail-image thumbnail-none"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    
-                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2017/05/20/formulas-with-mathjax/" class="title">Formulas with MathJax</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-05-20 11:58:06 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/" class="thumbnail">
-                    
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/placeholder.png)" alt="The Answer of Practice 1-2" class="thumbnail-image"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    <p class="item-category">
-                        
-                        <a class="article-category-link" href="https://wtbacon.github.io/stat-basis/categories/programming">
-                        programming
-                        </a>
-                    </p>
-                    
-                    
-                    <p class="item-title"><a href="https://wtbacon.github.io/stat-basis/2015/10/02/how-to-add-pages-to-the-menu/" class="title">How to add pages to the menu</a></p>
-                    <p class="item-date">
-                        <time datetime="2015-10-02 21:49:20 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-02</time>
-                    </p>
-                </div>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -580,14 +490,6 @@ $$</p>
                 
                 <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/categories/probability">
                     probability
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/categories/programming">
-                    programming
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -617,46 +519,6 @@ $$</p>
                 <span class="category-list-count">1</span>
             </li>
             
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/golang">
-                    golang
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/hugo">
-                    hugo
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/markdown">
-                    markdown
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/programming">
-                    programming
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                
-                <a class="category-list-link" href="https://wtbacon.github.io/stat-basis/tags/theme">
-                    theme
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -675,21 +537,6 @@ $$</p>
         
         
         <a href="https://wtbacon.github.io/stat-basis/tags/chapter-1" style="font-size: 12px;">chapter-1</a>
-        
-        
-        <a href="https://wtbacon.github.io/stat-basis/tags/golang" style="font-size: 12px;">golang</a>
-        
-        
-        <a href="https://wtbacon.github.io/stat-basis/tags/hugo" style="font-size: 12px;">hugo</a>
-        
-        
-        <a href="https://wtbacon.github.io/stat-basis/tags/markdown" style="font-size: 12px;">markdown</a>
-        
-        
-        <a href="https://wtbacon.github.io/stat-basis/tags/programming" style="font-size: 12px;">programming</a>
-        
-        
-        <a href="https://wtbacon.github.io/stat-basis/tags/theme" style="font-size: 12px;">theme</a>
         
     </div>
 </div>
@@ -725,6 +572,8 @@ $$</p>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+  displayAlign: "left",
+  displayIndent: "2em",
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']]}
   });
