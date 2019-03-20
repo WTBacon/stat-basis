@@ -18,7 +18,7 @@ $$ \begin{align}
   P(A \Delta B) = P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2 P(A \cap B)
 \end{align} $$
 
-### A.
+## A.
 
 $A \Delta B = (A \cap B^c) \cup (B \cap A^c)$かつ，これらはdisjointより，
 $$ \begin{align}
