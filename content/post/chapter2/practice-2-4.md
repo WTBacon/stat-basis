@@ -29,7 +29,7 @@ $$
 
 - $E[\mid X - t \mid]$ を最小にする $t$ 
 
-1. $\mid X - t \mid = X - t$ の場合、
+$\mid X - t \mid = X - t$ の場合、
 
 $$ \begin{eqnarray}
 E[\mid X - t \mid] &= E[X - t] \\\\ 
@@ -39,7 +39,7 @@ $$
 
 より、$t = E[X]$
 
-2. $\mid X - t \mid = t - X$ の場合、
+$\mid X - t \mid = t - X$ の場合、
 
 $$ \begin{eqnarray}
 E[\mid X - t \mid] &= E[t - X] \\\\ 
