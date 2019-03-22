@@ -6,7 +6,7 @@ menu = ""
 banner = "banners/modern-mathematical-statistics.jpg"
 images = []
 title = "The Answer of Practice 1-3"
-date = "2019-03-22"
+date = "2019-03-19"
 disable_profile = true
 disable_widgets = true
 +++
