@@ -6,10 +6,73 @@
     <description>Recent content in Posts on Fundamentals of Mathematical Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wtbacon.github.io/stat-basis/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Answer of Practice 2-12</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-12/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-12/</guid>
+      <description>問12 A (1) $$ \begin{align} M_X(t) &amp;amp;= E[e^{tX}] \\ &amp;amp;= \int_{0}^{1} f(x) e^{tx} dx \\ &amp;amp;= \left[ \frac{1}{t} e^{tx} \right]^{1}_{0} \\ &amp;amp;= \frac{e^t - 1}{t} \end{align} $$
+このとき、平均 $E[X]$, 分散 $V[X]$ について、 $$ \begin{align} E[X] &amp;amp;= \int_{0}^{1} x dx = \frac{1}{2} \\ E[X^2] &amp;amp;= \int_{0}^{1} x^2 dx = \frac{1}{3} \\ V[X] &amp;amp;= E[X^2] - (E[X])^2 = \frac{1}{12} \end{align} $$
+(2) $$ \begin{align} F_Y(Y) &amp;amp;= P(Y \leq y) \
+&amp;amp;= P(- \sqrt{y} \leq X \leq \sqrt{y}) \\ &amp;amp;= P(X \leq \sqrt{y}) \\ &amp;amp;= \int_{0}^{\sqrt{y}} f(x) dx \\ &amp;amp;= \sqrt{y} \end{align} $$</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 2-4</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-4/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-4/</guid>
+      <description>問4 連続型確率変数 $X$ について、$E[(X - t)^2], E[\mid X - t \mid]$ をそれぞれ最小にする $t$ を求めよ
+A  $E[(X-t)^2]$ を最小にする $t$  $$ \begin{align} f(t) &amp;amp;= E[(X-t)^2] \\ &amp;amp;= \int p(x) (x - t)^2 dx \\ &amp;amp;= t^2 -2 t \int p(x) x dx + \int p(x) x^2 dx \end{align} $$
+とする。このとき $f(t)$ は凸関数であり、 $ \frac{d}{dt} f(t) = 2t - 2 \int p(x) x dx = 0 $ とすると、解は $t= \int p(x) x dx = E[X]$</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 2-8</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-8/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-8/</guid>
+      <description>問8 A $y = x - \mu$ とする。 確率変数 $Y$ として、$y \in Y$ とする。
+$$ \begin{align} E[X] &amp;amp;= E[Y + \mu] \\ &amp;amp;= E[Y] + \mu \end{align} $$
+ここで、
+$$ \begin{align} E[Y] &amp;amp;= \int p(y) y dy \\ &amp;amp;= \int_{- \infty}^{0} p(y)ydy + \int_{0}^{\infty} p(y)ydy \\ &amp;amp;= - \int_{0}^{\infty} p(-y)ydy + \int_{0}^{\infty} p(y)ydy \\ &amp;amp;= 0 \end{align} $$
+よって、 $E[X] = \mu$ が成立。</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-1</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-1/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-1/</guid>
+      <description>問2 事象$A$と$B$の対称差$A \Delta B$は，$A \Delta B = A^c \Delta B^c = (A \cup B) \setminus (A \cap B)$と表されることを示して次を示せ．
+$$ \begin{align} P(A \Delta B) = P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2 P(A \cap B) \end{align} $$
+A. $A \Delta B = (A \cap B^c) \cup (B \cap A^c)$かつ，これらはdisjointより， $$ \begin{align} P(A \Delta B) &amp;amp;= P(A \cap B^c) + P(B \cap A^c) \\
+&amp;amp; = P(A \setminus (A \cap B)) + P(B \setminus (A \cap B)) \\</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-11</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/</guid>
+      <description>問11 ボレル・カンテリの補題を証明する
+A (1) 単調減少列 $B_n = \bigcup^{\infty}_{k=n}A_k$ として、確率の連続性に着目して、
+\begin{align} P(\limsup_{n \to \infty} A_n) &amp;amp;= P(\bigcap^{\infty}_{n=1}\bigcup^{\infty}
+_{k=n}A_k) \\ &amp;amp;= P(\bigcap^{\infty}_{n=1}B_n) \\ &amp;amp;= \lim_{n \to \infty} P(B_n) \end{align}
+$\sum^{\infty}_{n=1}P(A_n) \lt \infty$ の前提条件より級数が収束しているので 、$\lim_{n \to \infty} P(A_n) = 0$ が成立する。よって、$ P(\limsup_{n \to \infty} A_n) = 0$ が成立。
+(2) 単調増大列 $B_n = \bigcap^{\infty}_{k=n}A_k$ として、
+\begin{align} P(\limsup_{n \to \infty}A_n) &amp;amp;= P(\bigcap^{\infty}_{n=1}\bigcup^{\infty}_{k=n}A_k) \\ &amp;amp;= 1 - P(\bigcup^{\infty}_{n=1}\bigcap^{\infty}_{k=n}A^{c}_k) \\ &amp;amp;= 1 - P(\bigcup^{\infty}_{n=1}B_n) \\ &amp;amp;= 1 - \lim_{n \to \infty} P(B_n) \\ &amp;amp;= 1 - \lim_{n \to \infty} P(\bigcap^{\infty}_{k=n}A^{c}_k) \end{align}</description>
+    </item>
     
     <item>
       <title>The Answer of Practice 1-2</title>
@@ -22,6 +85,95 @@ P(A \cup B) = P(A) + P(B) - P(A \cap B) \quad より \\
 \begin{align} P(A_1 \cup (A_2 \cup A_3)) &amp;amp;= P(A_1) + P(A_2 \cup A_3) - P(A_1 \cap (A_2 \cup A_3)) \\
 &amp;amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - P(A_1 \cap (A_2 \cup A_3)) \\
 &amp;amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - (P(A_1 \cap A_3) + P(A_1 \cap A_2) - P(A_1 \cap A_2 \cap A_3)) \\</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-3</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-3/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-3/</guid>
+      <description>問3 (1.2) を示せ
+A 帰納的に示す。
+ $n=2$ のとき  $P(A_1) \gt 0$ のとき、 $P(A_1 \cap A_2) = P(A_2 \mid A_1)P(A_1)$ は条件付き確率の定義より成立。
+ $n=k$ のとき  $$P(A_1 \cap &amp;hellip; \cap A_k) = P(A_k \mid A_1 \cap &amp;hellip; \cap A_{k-1}) \times &amp;hellip; \times P(A_2 \mid A_1) \times P(A_1)$$
+を仮定する。$B = A_1 \cap &amp;hellip; \cap A_k$ とおいて、 $P(B) \gt 0$ のとき、条件付き確率の定義より、
+$$ \begin{align} P(B \cap A_{k+1})&amp;amp;=P(A_{k+1} \mid B)P(B) \\ &amp;amp;=P(A_{k+1} \mid A_1 \cap &amp;hellip; \cap A_k) \times P(A_k \mid A_1 \cap &amp;hellip; \cap A_{k - 1}) \times &amp;hellip; \times P(A_2 \mid A_1) \times P(A_1) \end{align} $$</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-4</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-4/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-4/</guid>
+      <description>問 $p(A|B^c) = 1 - p(A|B)$ を満たさ無い場合を考えよ．
+A. $p(A|B^c) + p(A|B) = 1 $ を満たさ無い場合を考えればよい．
+すなわち，$p(A|B^c) + p(A|B) \geq 1 $ または $p(A|B^c) + p(A|B) \leq 1 $ となる場合について考える．
+[1] $p(A|B^c) + p(A|B) \geq 1 $ となる場合
+$B \subset A$ のとき，この不等式を満たす．
+$B \subset A$より，
+$p(A|B) = 1$
+$B^c \cap A \neq \phi$であるから，
+$p(A|B^c) \geq 0$
+よって，$B \subset A$のとき，$p(A|B^c) + p(A|B) \geq 1 $
+[2] $p(A|B^c) + p(A|B) \leq 1 $ となる場合 $A \subset B$ のとき，この不等式を満たす．</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-5</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/</guid>
+      <description>問5 情報を$0$と$1$に符号化して送る際に，受信者は1割の確率で間違って受信してしまう場合を想定してみる． 送信者は，$0$を$1 / 3$の確率，$1$を$2 / 3$の確率で送信していることがわかっている．
+ $0$を受信する確率を求めよ． $0$を受信したとするとき，それが間違って受信した確率を求めよ．$1$を受信したときには，間違って受信する確率はどうなるか．  A. Aを送信の事象，Bを受信の事象とすると，
+ $P(A = 0) = 1 / 3$ $P(A = 1) = 2 / 3$ $P(B = 0 \mid A = 1) = P(B = 1 \mid A = 0) = 1 / 10$  1.
+$$ \begin{align} P(B = 0) &amp;amp;= P(B = 0 \mid A = 0) \\
+&amp;amp;= P(B = 0 \mid A = 1) P(A = 1) \\</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-7</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-7/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-7/</guid>
+      <description>問7 書籍参照
+A (1) 変数間に因果関係がないとき、独立であるとする。変数間が独立のときは以下が成立する。
+$$\begin{eqnarray} P(A_1 \cap B_1) &amp;amp;= P(A_1)P(B_1) \\ P(A_1 \cap B_2) &amp;amp;= P(A_1)P(B_2) \\ P(A_2 \cap B_1) &amp;amp;= P(A_2)P(B_1) \\ P(A_2 \cap B_2) &amp;amp;= P(A_2)P(B_2) \end{eqnarray} $$
+これを用いて、
+$$ a = \frac{2}{9}, b = \frac{2}{3}, c = \frac{1}{3}, d = \frac{2}{9} $$
+と解ける。
+(2) 独立性が仮定できないとき、変数間には以下が成立する。
+$$\begin{eqnarray} P(A_1 \cap B_1) &amp;amp;= P(A_1 \mid B_1)P(B_1) \\ P(A_1 \cap B_2) &amp;amp;= P(A_1 \mid B_2)P(B_2) \\ P(A_2 \cap B_1) &amp;amp;= P(A_2 \mid B_1)P(B_1) \\ P(A_2 \cap B_2) &amp;amp;= P(A_2 \mid B_2)P(B_2) \end{eqnarray} $$</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-8</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-8/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-8/</guid>
+      <description>問 $p\left(\bigcap_{k=1}^{\infty}A_k\right) \geq 1 - \sum^{\infty}_{k=1}p(A_k^c)$を示せ．
+A. $\Omega = \left(\bigcap_{k=1}^{\infty}A_k\right) \cup \left(\bigcap^{\infty}_{k=1} A_k\right)^c$ であることに注意する．
+$\left(\bigcap_{k=1}^{\infty}A_k\right)$と$\left(\bigcap_{k=1}^{\infty}A_k\right)^c$ は互いに排反であるから，
+\begin{align} 1 = p\left(\bigcap_{k=1}^{\infty}A_k\right) + p\left(\left(\bigcap^{\infty}_{k=1} A_k\right)^c\right) \end{align}
+ここで，$\left(\bigcap^{\infty}_{k=1} A_k\right)^c = \left(\bigcup^{\infty}_{k=1} A_k^c\right)$， 確率の性質 $p\left(\bigcup^{\infty}_{k=1} A_k\right) \leq \sum^{\infty}_{k=1}p\left(A_k\right)$より，
+\begin{align} p\left(\left(\bigcap^{\infty}_{k=1} A_k\right)^c\right) = p\left(\bigcup^{\infty}_{k=1} A_k^c\right) \leq \sum^{\infty}_{k=1}p(A_k^c) \end{align}
+よって， \begin{align} 1 = p\left(\bigcap_{k=1}^{\infty}A_k\right) + p\left(\left(\bigcap^{\infty}_{k=1} A_k\right)^c\right) \leq p\left(\bigcap_{k=1}^{\infty}A_k\right) + \sum^{\infty}_{k=1}p(A_k^c) \end{align}
+したがって， \begin{align} p\left(\bigcap_{k=1}^{\infty}A_k\right) \geq 1 - \sum^{\infty}_{k=1}p(A_k^c) \end{align}</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 1-9</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-9/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-9/</guid>
+      <description>問9 集合の列$A_k \in \mathfrak{B}, k = 1,2,\cdots,$に対して，上極限集合と下極限集合をそれぞれ
+$$ \begin{align} \limsup _ {n \to \infty} A _ n &amp;amp;= \bigcap _ {n = 1}^{\infty} \bigcup _ {k=n}^{\infty} A _ k, \\
+\liminf _ {n \to \infty} A _ n &amp;amp;= \bigcup _ {n = 1}^{\infty} \bigcap _ {k=n}^{\infty} A _ k \end{align} $$ で定義する． $\limsup _ {n \to \infty} A _ n = \liminf _ {n \to \infty} A _ n$が成り立つとき，この集合を$\lim _ {n \to \infty} A _ n$とかく． $A _ k$が単調増大列のとき，$\lim _ {n \to \infty} A _ k = \bigcup _ {n = 1} ^{\infty} A _ n$となることを示せ． また$A _ k$が単調減少列のとき，$\lim _ {n \to \infty} A _ n = \bigcap _ {n =1} ^{\infty} A _ n$となることを示せ．</description>
     </item>
     
   </channel>

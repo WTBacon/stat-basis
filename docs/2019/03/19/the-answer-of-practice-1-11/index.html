@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>The Answer of Practice 1-2 &middot; Fundamentals of Mathematical Statistics</title>
+    <title>The Answer of Practice 1-11 &middot; Fundamentals of Mathematical Statistics</title>
     <meta name="generator" content="Hugo 0.54.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Stat-Basis">
     
-      <meta name="description" content="The Answer of Practice 1-2">
+      <meta name="description" content="The Answer of Practice 1-11">
     
     
-    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/"/>
+    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/"/>
     <link rel="icon" href="https://wtbacon.github.io/stat-basis/favicon.ico">
     <link rel="apple-touch-icon" href="https://wtbacon.github.io/stat-basis/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/style.css">
@@ -20,30 +20,30 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="The Answer of Practice 1-2" />
-<meta property="og:description" content="The Answer of Practice 1-2" />
+    <meta property="og:title" content="The Answer of Practice 1-11" />
+<meta property="og:description" content="The Answer of Practice 1-11" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" />
+<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/" />
 <meta property="article:published_time" content="2019-03-19T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2019-03-19T00:00:00&#43;00:00"/>
 
     
     
-<meta itemprop="name" content="The Answer of Practice 1-2">
-<meta itemprop="description" content="The Answer of Practice 1-2">
+<meta itemprop="name" content="The Answer of Practice 1-11">
+<meta itemprop="description" content="The Answer of Practice 1-11">
 
 
 <meta itemprop="datePublished" content="2019-03-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-03-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="109">
+<meta itemprop="wordCount" content="137">
 
 
 
 <meta itemprop="keywords" content="chapter-1," />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The Answer of Practice 1-2"/>
-<meta name="twitter:description" content="The Answer of Practice 1-2"/>
+<meta name="twitter:title" content="The Answer of Practice 1-11"/>
+<meta name="twitter:description" content="The Answer of Practice 1-11"/>
 
     
 
@@ -168,9 +168,9 @@
         
 
         <header class="article-header">
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/">
     <h1 class="article-title" itemprop="name">
-        The Answer of Practice 1-2
+        The Answer of Practice 1-11
     </h1>
     </a>
     <div class="article-meta">
@@ -180,7 +180,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2019-03-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-19</time>
             &middot;
-            109
+            137
             words
             &middot;
             1
@@ -220,27 +220,59 @@
         <div class="article-entry" itemprop="articleBody">
             
 
-<h2 id="問2">問2</h2>
+<h2 id="問11">問11</h2>
 
-<p>$$
-事象 A_1, A_2, A_3 に対して次の等式を示せ.\\<br />
-P(A \cup B) = P(A) +  P(B) - P(A \cap B) \quad より \\<br />
-\begin{align}
-P(A_1 \cup (A_2 \cup A_3)) &amp;=  P(A_1) + P(A_2 \cup A_3) - P(A_1 \cap (A_2 \cup A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) -  P(A_1 \cap (A_2 \cup A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - (P(A_1 \cap A_3) + P(A_1 \cap A_2) - P(A_1 \cap A_2 \cap A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_1 \cap A_2) - P(A_2 \cap A_3) - P(A_3 \cap A_1) + P(A_1 \cap A_2 \cap A_3) \Box
-\end{align}
-$$</p>
+<p>ボレル・カンテリの補題を証明する</p>
+
+<h2 id="a">A</h2>
+
+<p>(1)
+単調減少列 $B_n = \bigcup^{\infty}_{k=n}A_k$ として、確率の連続性に着目して、</p>
+
+<p>\begin{align}
+P(\limsup_{n \to \infty} A_n) &amp;= P(\bigcap^{\infty}_{n=1}\bigcup^{\infty}<br />
+_{k=n}A_k) \\
+&amp;= P(\bigcap^{\infty}_{n=1}B_n) \\
+&amp;= \lim_{n \to \infty} P(B_n)
+\end{align}</p>
+
+<p>$\sum^{\infty}_{n=1}P(A_n) \lt \infty$ の前提条件より級数が収束しているので
+、$\lim_{n \to \infty} P(A_n) = 0$ が成立する。よって、$ P(\limsup_{n \to \infty} A_n) = 0$ が成立。</p>
+
+<p>(2)
+単調増大列 $B_n = \bigcap^{\infty}_{k=n}A_k$ として、</p>
+
+<p>\begin{align}
+P(\limsup_{n \to \infty}A_n) &amp;= P(\bigcap^{\infty}_{n=1}\bigcup^{\infty}_{k=n}A_k) \\
+&amp;= 1 - P(\bigcup^{\infty}_{n=1}\bigcap^{\infty}_{k=n}A^{c}_k) \\
+&amp;= 1 - P(\bigcup^{\infty}_{n=1}B_n) \\
+&amp;= 1 - \lim_{n \to \infty} P(B_n) \\
+&amp;= 1 - \lim_{n \to \infty} P(\bigcap^{\infty}_{k=n}A^{c}_k)
+\end{align}</p>
+
+<p>ここで、$(A_n)^{\infty}_{n=1}$ の独立性より、</p>
+
+<p>\begin{align}
+P(\bigcap^{\infty}_{k=n} A^{c}_k) = \prod^{\infty}_{k=n} P(A^{c}_k) = \prod^{\infty}_{k=n} (1-P(A_k))
+\end{align}</p>
+
+<p>ここで、前提条件 $\sum^{\infty}_{n=1}P(A_n) = \infty$ と $0 \leq P(A_k) \leq 1 \Rightarrow 0 \leq 1 - P(A_k) \leq e^{- P(A_k)}$ であることを用
+いて、</p>
+
+<p>\begin{align}
+\prod^{\infty}_{k=n} (1-P(A_k))  \leq \prod^{\infty}_{k=n} \exp(-P(A_k)) = \exp(- \sum^{\infty}_{k=n} P(A_k)) = 0
+\end{align}</p>
+
+<p>よって、$P(\bigcap^{\infty}_{k=n}A^{c}_k) = 0$ となり、 $P(\limsup_{n \to \infty}A_n)=1$</p>
 
         </div>
         <footer class="article-footer">
-    <a data-url="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" data-id="f58aa11aec07171d37c8a40372633fad" class="article-share-link">
+    <a data-url="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/" data-id="a7ed0980be9504aaf599c7127f76a1d8" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/#disqus_thread" class="article-comment-link">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -316,20 +348,20 @@ $$</p>
     
 <nav id="article-nav">
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-3/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
-      <div class="article-nav-title">The Answer of Practice 1-3</div>
+      <div class="article-nav-title">The Answer of Practice 1-2</div>
     </a>
     
 
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-1/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Newer
       </strong>
-      <div class="article-nav-title">The Answer of Practice 1-11</div>
+      <div class="article-nav-title">The Answer of Practice 1-1</div>
     </a>
     
 </nav>

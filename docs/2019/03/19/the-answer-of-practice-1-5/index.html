@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>The Answer of Practice 1-2 &middot; Fundamentals of Mathematical Statistics</title>
+    <title>The Answer of Practice 1-5 &middot; Fundamentals of Mathematical Statistics</title>
     <meta name="generator" content="Hugo 0.54.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Stat-Basis">
     
-      <meta name="description" content="The Answer of Practice 1-2">
+      <meta name="description" content="The Answer of Practice 1-5">
     
     
-    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/"/>
+    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/"/>
     <link rel="icon" href="https://wtbacon.github.io/stat-basis/favicon.ico">
     <link rel="apple-touch-icon" href="https://wtbacon.github.io/stat-basis/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/style.css">
@@ -20,30 +20,30 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="The Answer of Practice 1-2" />
-<meta property="og:description" content="The Answer of Practice 1-2" />
+    <meta property="og:title" content="The Answer of Practice 1-5" />
+<meta property="og:description" content="The Answer of Practice 1-5" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" />
+<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/" />
 <meta property="article:published_time" content="2019-03-19T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2019-03-19T00:00:00&#43;00:00"/>
 
     
     
-<meta itemprop="name" content="The Answer of Practice 1-2">
-<meta itemprop="description" content="The Answer of Practice 1-2">
+<meta itemprop="name" content="The Answer of Practice 1-5">
+<meta itemprop="description" content="The Answer of Practice 1-5">
 
 
 <meta itemprop="datePublished" content="2019-03-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-03-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="109">
+<meta itemprop="wordCount" content="234">
 
 
 
 <meta itemprop="keywords" content="chapter-1," />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The Answer of Practice 1-2"/>
-<meta name="twitter:description" content="The Answer of Practice 1-2"/>
+<meta name="twitter:title" content="The Answer of Practice 1-5"/>
+<meta name="twitter:description" content="The Answer of Practice 1-5"/>
 
     
 
@@ -168,9 +168,9 @@
         
 
         <header class="article-header">
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/">
     <h1 class="article-title" itemprop="name">
-        The Answer of Practice 1-2
+        The Answer of Practice 1-5
     </h1>
     </a>
     <div class="article-meta">
@@ -180,10 +180,10 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2019-03-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-19</time>
             &middot;
-            109
+            234
             words
             &middot;
-            1
+            2
             minute read
         </div>
         
@@ -220,27 +220,67 @@
         <div class="article-entry" itemprop="articleBody">
             
 
-<h2 id="問2">問2</h2>
+<h2 id="問5">問5</h2>
 
-<p>$$
-事象 A_1, A_2, A_3 に対して次の等式を示せ.\\<br />
-P(A \cup B) = P(A) +  P(B) - P(A \cap B) \quad より \\<br />
-\begin{align}
-P(A_1 \cup (A_2 \cup A_3)) &amp;=  P(A_1) + P(A_2 \cup A_3) - P(A_1 \cap (A_2 \cup A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) -  P(A_1 \cap (A_2 \cup A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_2 \cap A_3) - (P(A_1 \cap A_3) + P(A_1 \cap A_2) - P(A_1 \cap A_2 \cap A_3)) \\<br />
-&amp;= P(A_1) + P(A_2) + P(A_3) - P(A_1 \cap A_2) - P(A_2 \cap A_3) - P(A_3 \cap A_1) + P(A_1 \cap A_2 \cap A_3) \Box
-\end{align}
-$$</p>
+<p>情報を$0$と$1$に符号化して送る際に，受信者は1割の確率で間違って受信してしまう場合を想定してみる．
+送信者は，$0$を$1 / 3$の確率，$1$を$2 / 3$の確率で送信していることがわかっている．</p>
+
+<ol>
+<li>$0$を受信する確率を求めよ．</li>
+<li>$0$を受信したとするとき，それが間違って受信した確率を求めよ．$1$を受信したときには，間違って受信する確率はどうなるか．</li>
+</ol>
+
+<h2 id="a">A.</h2>
+
+<p>Aを送信の事象，Bを受信の事象とすると，</p>
+
+<ul>
+<li>$P(A = 0) = 1 / 3$</li>
+<li>$P(A = 1) = 2 / 3$</li>
+<li>$P(B = 0 \mid A = 1) = P(B = 1 \mid A = 0) = 1 / 10$</li>
+</ul>
+
+<p>1.</p>
+
+<p>$$ \begin{align}
+  P(B = 0) &amp;= P(B = 0 \mid A = 0) \\<br />
+  &amp;= P(B = 0 \mid A = 1) P(A = 1) \\<br />
+  &amp;= 9 / 10 \cdot 1 / 3 + 1 / 10 \cdot 2 / 3 \\<br />
+  &amp;= 11 / 30.
+\end{align} $$</p>
+
+<p>2.</p>
+
+<p>$$ \begin{align}
+  P(A = 1) &amp;= P(B = 0 \mid A = 0) \\<br />
+  &amp;= \frac{P(B = 0 \mid A = 1) P(A = 1)}{P(B = 0)} \\<br />
+  &amp;= \frac{1 / 10 \cdot 2 / 3}{11 / 30} \\<br />
+  &amp;= 2 / 11.
+\end{align} $$</p>
+
+<p>ここで，$P (B = 1)$は以下で計算できる．</p>
+
+<p>$$ \begin{align}
+  P(B = 1) &amp;= P(B = 1 \mid A = 0)P(A = 0) + P(B = 1 \mid A = 1) P(A = 1) \\<br />
+  &amp;= 1 / 10 \cdot 1 / 3 + 9 / 10 \cdot 2 / 3 \\<br />
+  &amp;= 19 / 30.
+\end{align} $$</p>
+
+<p>よって，
+$$ \begin{align}
+  P(A = 0 \mid B = 1) &amp;= \frac{P(B = 1 \mid A = 0)P(A = 0)}{P(B = 1)} \\<br />
+  &amp;= \frac{1 / 10 \cdot 1 / 3}{19 / 30} \\<br />
+  &amp;= 1 / 19.
+\end{align} $$</p>
 
         </div>
         <footer class="article-footer">
-    <a data-url="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/" data-id="f58aa11aec07171d37c8a40372633fad" class="article-share-link">
+    <a data-url="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/" data-id="101d448a7ce19e68cc6b04fbd21b9c32" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-2/#disqus_thread" class="article-comment-link">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -316,20 +356,20 @@ $$</p>
     
 <nav id="article-nav">
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-3/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-7/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
-      <div class="article-nav-title">The Answer of Practice 1-3</div>
+      <div class="article-nav-title">The Answer of Practice 1-7</div>
     </a>
     
 
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-11/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-4/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Newer
       </strong>
-      <div class="article-nav-title">The Answer of Practice 1-11</div>
+      <div class="article-nav-title">The Answer of Practice 1-4</div>
     </a>
     
 </nav>
