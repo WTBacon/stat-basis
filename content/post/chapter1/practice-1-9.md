@@ -7,8 +7,8 @@ banner = "banners/modern-mathematical-statistics.jpg"
 images = []
 title = "The Answer of Practice 1-9"
 date = "2019-03-19"
-disable_profile = true
-disable_widgets = true
+disable_profile = true 
+disable_widgets = false 
 +++
 
 ## 問9

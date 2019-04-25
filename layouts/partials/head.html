@@ -33,10 +33,10 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ partial "head_custom" . }}
 
-    {{ if .Params.disable_profile | and .Params.disable_widgets }}
+    {{ if .Params.disable_profile}}
     <style>
-        .full-width {
-            width: 100% !important;
+        #main {
+            width: 75% !important;
         }
     </style>
     {{ end }}

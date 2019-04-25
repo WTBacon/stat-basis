@@ -6,8 +6,8 @@ menu = ""
 images = []
 title = "The Answer of Practice 1-4"
 date = "2019-03-19"
-disable_profile = true
-disable_widgets = true
+disable_profile = true 
+disable_widgets = false 
 +++
 
 ## 問
