@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 3 on Fundamentals of Mathematical Statistics</title>
+    <link>https://wtbacon.github.io/stat-basis/tags/chapter-3/</link>
+    <description>Recent content in Chapter 3 on Fundamentals of Mathematical Statistics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wtbacon.github.io/stat-basis/tags/chapter-3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Answer of Practice 3-2</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/</guid>
+      <description>Q. 2項係数について (3.4) で与えられた関係式が成り立つことを示せ. また数学的帰納法を用いて2項定理を証明せよ.
+A. ・ $ \begin{align} \displaystyle\sum_{k=0}^{n} \binom{n}{k} = 2^n \end{align} $ について 二項定理より, $a=1$, $b=1$ のとき, $ \begin{align} \underline{\displaystyle\sum_{k=0}^{n} \binom{n}{k} = 2^n} \\
+\end{align} $
+が成り立つ.
+・ $ \begin{align} \binom{n}{k} = \binom{n}{n-k} \end{align} $ について $ \begin{align} \binom{n}{n-k} = \frac{n!}{(n-k)!(n-(n-k))!} &amp;amp;= \frac{n!}{(n-k)!k!} \\
+&amp;amp;= \underline{\binom{n}{k}} \end{align} $ ・ $ \begin{align} \binom{n+1}{k} = \binom{n}{k-1} + \binom{n}{k} \end{align} $ について $ \begin{align} \binom{n}{k-1} + \binom{n}{k} &amp;amp;= \frac{n!}{(k-1)!(n-k+1)!} + \frac{n!</description>
+    </item>
+    
+    <item>
+      <title>The Answer of Practice 3-1</title>
+      <link>https://wtbacon.github.io/stat-basis/2019/05/23/the-answer-of-practice-3-1/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2019/05/23/the-answer-of-practice-3-1/</guid>
+      <description>Q. 離散一様分布の確率分布の確率母関数を求め, 平均と分散を確率母関数から求めよ.
+A. 離散一様分布の確率関数は $ \begin{align} p(x) = P(X = x | N) = \frac{1}{N}, x = 1, 2, &amp;hellip; , N \end{align} $
+であるから, 確率母関数 $G_X(s)$ は $ \begin{align} G_X(s) = \displaystyle\sum_{k=1}^{N} s^k f(x) &amp;amp; = \frac{1}{N}\displaystyle\sum_{k=1}^{N} s^k \\
+&amp;amp; = \frac{S^{N+1} - S}{S-1} \\
+&amp;amp; = \underline{\frac{S(S^N-1)}{N(S-1)}} \end{align} $
+一般に, $ \begin{align} G_{X}^{(k)}(1) = E[X(X-1)\ldots(X-k+1)] \end{align} $ より, 平均 $E[X]$ は, $ \begin{align} E[X] = \left.\frac{d{G_X}(s)}{dt}\right|_{s=1} &amp;amp;= \displaystyle\left.</description>
+    </item>
+    
+  </channel>
+</rss>

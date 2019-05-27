@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>The Answer of Practice 1-5 &middot; Fundamentals of Mathematical Statistics</title>
+    <title>The Answer of Practice 3-2 &middot; Fundamentals of Mathematical Statistics</title>
     <meta name="generator" content="Hugo 0.54.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Stat-Basis">
     
-      <meta name="description" content="The Answer of Practice 1-5">
+      <meta name="description" content="The Answer of Practice 3-2">
     
     
-    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/"/>
+    <link rel="canonical" href="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/"/>
     <link rel="icon" href="https://wtbacon.github.io/stat-basis/favicon.ico">
     <link rel="apple-touch-icon" href="https://wtbacon.github.io/stat-basis/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://wtbacon.github.io/stat-basis/css/style.css">
@@ -20,30 +20,30 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="The Answer of Practice 1-5" />
-<meta property="og:description" content="The Answer of Practice 1-5" />
+    <meta property="og:title" content="The Answer of Practice 3-2" />
+<meta property="og:description" content="The Answer of Practice 3-2" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/" />
-<meta property="article:published_time" content="2019-03-19T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-03-19T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/" />
+<meta property="article:published_time" content="2019-05-27T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-05-27T00:00:00&#43;00:00"/>
 
     
     
-<meta itemprop="name" content="The Answer of Practice 1-5">
-<meta itemprop="description" content="The Answer of Practice 1-5">
+<meta itemprop="name" content="The Answer of Practice 3-2">
+<meta itemprop="description" content="The Answer of Practice 3-2">
 
 
-<meta itemprop="datePublished" content="2019-03-19T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-03-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="234">
+<meta itemprop="datePublished" content="2019-05-27T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="215">
 
 
 
-<meta itemprop="keywords" content="chapter-1," />
+<meta itemprop="keywords" content="chapter-3," />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The Answer of Practice 1-5"/>
-<meta name="twitter:description" content="The Answer of Practice 1-5"/>
+<meta name="twitter:title" content="The Answer of Practice 3-2"/>
+<meta name="twitter:description" content="The Answer of Practice 3-2"/>
 
     
 
@@ -168,9 +168,9 @@
         
 
         <header class="article-header">
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/">
+    <a href="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/">
     <h1 class="article-title" itemprop="name">
-        The Answer of Practice 1-5
+        The Answer of Practice 3-2
     </h1>
     </a>
     <div class="article-meta">
@@ -178,9 +178,9 @@
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2019-03-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-19</time>
+            <time datetime="2019-05-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-27</time>
             &middot;
-            234
+            215
             words
             &middot;
             2
@@ -208,7 +208,7 @@
                 <i class="fa fa-tags"></i>
                 
                 
-                <a class="article-category-link" href="https://wtbacon.github.io/stat-basis/tags/chapter-1">chapter-1</a>
+                <a class="article-category-link" href="https://wtbacon.github.io/stat-basis/tags/chapter-3">chapter-3</a>
                 
                 
             </div>
@@ -220,67 +220,90 @@
         <div class="article-entry" itemprop="articleBody">
             
 
-<h2 id="問5">問5</h2>
+<h2 id="q">Q.</h2>
 
-<p>情報を$0$と$1$に符号化して送る際に，受信者は1割の確率で間違って受信してしまう場合を想定してみる．
-送信者は，$0$を$1 / 3$の確率，$1$を$2 / 3$の確率で送信していることがわかっている．</p>
-
-<ol>
-<li>$0$を受信する確率を求めよ．</li>
-<li>$0$を受信したとするとき，それが間違って受信した確率を求めよ．$1$を受信したときには，間違って受信する確率はどうなるか．</li>
-</ol>
+<p>2項係数について (3.4) で与えられた関係式が成り立つことを示せ. また数学的帰納法を用いて2項定理を証明せよ.</p>
 
 <h2 id="a">A.</h2>
 
-<p>Aを送信の事象，Bを受信の事象とすると，</p>
+<p>・
+$ \begin{align}
+  \displaystyle\sum_{k=0}^{n} \binom{n}{k} = 2^n
+\end{align} $
+について </p>
 
-<ul>
-<li>$P(A = 0) = 1 / 3$</li>
-<li>$P(A = 1) = 2 / 3$</li>
-<li>$P(B = 0 \mid A = 1) = P(B = 1 \mid A = 0) = 1 / 10$</li>
-</ul>
+<p>二項定理より, $a=1$, $b=1$ のとき, </p>
 
-<p>1.</p>
+<p>$ \begin{align}
+  \underline{\displaystyle\sum_{k=0}^{n} \binom{n}{k} = 2^n} \\<br />
+\end{align} $</p>
 
-<p>$$ \begin{align}
-  P(B = 0) &amp;= P(B = 0 \mid A = 0) \\<br />
-  &amp;= P(B = 0 \mid A = 1) P(A = 1) \\<br />
-  &amp;= 9 / 10 \cdot 1 / 3 + 1 / 10 \cdot 2 / 3 \\<br />
-  &amp;= 11 / 30.
-\end{align} $$</p>
+<p>が成り立つ.<br />
+</p>
 
-<p>2.</p>
+<p>・
+$ \begin{align}
+    \binom{n}{k} = \binom{n}{n-k}
+\end{align} $
+について </p>
 
-<p>$$ \begin{align}
-  P(A = 1) &amp;= P(B = 0 \mid A = 0) \\<br />
-  &amp;= \frac{P(B = 0 \mid A = 1) P(A = 1)}{P(B = 0)} \\<br />
-  &amp;= \frac{1 / 10 \cdot 2 / 3}{11 / 30} \\<br />
-  &amp;= 2 / 11.
-\end{align} $$</p>
+<p>$ \begin{align}
+    \binom{n}{n-k} = \frac{n!}{(n-k)!(n-(n-k))!} &amp;= \frac{n!}{(n-k)!k!} \\<br />
+                                                 &amp;= \underline{\binom{n}{k}}
+\end{align} $ </p>
 
-<p>ここで，$P (B = 1)$は以下で計算できる．</p>
+<p>・
+$ \begin{align}
+    \binom{n+1}{k} = \binom{n}{k-1} + \binom{n}{k}
+\end{align} $
+について </p>
 
-<p>$$ \begin{align}
-  P(B = 1) &amp;= P(B = 1 \mid A = 0)P(A = 0) + P(B = 1 \mid A = 1) P(A = 1) \\<br />
-  &amp;= 1 / 10 \cdot 1 / 3 + 9 / 10 \cdot 2 / 3 \\<br />
-  &amp;= 19 / 30.
-\end{align} $$</p>
+<p>$ \begin{align}
+    \binom{n}{k-1} + \binom{n}{k} &amp;= \frac{n!}{(k-1)!(n-k+1)!} + \frac{n!}{k!(n-k)!} \\<br />
+                                  &amp;= \frac{k \cdot n!}{k(k-1)!(n-k+1)!} + \frac{n! \cdot (n-k+1)}{k!(n-k+1)(n-k)!} \\<br />
+                                  &amp;= \frac{(n+1) \cdot n!}{k!(n-k+1)!} \\<br />
+                                  &amp;= \frac{(n+1)!}{k!(n-k+1)!} \\<br />
+                                  &amp;= \underline{\binom{n+1}{k}} \\<br />
+\end{align} $ </p>
 
-<p>よって，
-$$ \begin{align}
-  P(A = 0 \mid B = 1) &amp;= \frac{P(B = 1 \mid A = 0)P(A = 0)}{P(B = 1)} \\<br />
-  &amp;= \frac{1 / 10 \cdot 1 / 3}{19 / 30} \\<br />
-  &amp;= 1 / 19.
-\end{align} $$</p>
+<p>・二項定理の証明について </p>
+
+<p>$n=1$ のとき </p>
+
+<p>$ \begin{align}
+  (a+b) = \displaystyle\sum_{k=0}^{1} \binom{1}{k}a^{k}b^{1-k} = \binom{1}{0}a^{0}b^{1} + \binom{1}{1}a^{1}b^{0} = a + b \\<br />
+\end{align} $</p>
+
+<p>$n=m-1$ のとき, </p>
+
+<p>$ \begin{align}
+  (a+b)^{m-1} = \displaystyle\sum_{k=0}^{m-1} \binom{m-1}{k}a^{k}b^{m-1-k} \\<br />
+\end{align} $ </p>
+
+<p>が成り立つと仮定して, $n=m$ が成り立つことを示す.<br />
+両辺に $(a+b)$ をかけると, </p>
+
+<p>$ \begin{align}
+  (a+b)^{m} &amp;= (a+b)\left( \displaystyle\sum_{k=0}^{m-1} \binom{m-1}{k}a^{k}b^{m-1-k} \right) \\<br />
+            &amp;= a \displaystyle\sum_{k=0}^{m-1} \binom{m-1}{k}a^{k}b^{m-1-k}  + b \displaystyle\sum_{k=0}^{m-1} \binom{m-1}{k}a^{k}b^{m-1-k} \\<br />
+            &amp;= a \left( \displaystyle\sum_{k=0}^{m-2} \binom{m-1}{k}a^{k}b^{m-1-k} + \binom{m-1}{m-1}a^{m-1}b^{0}  \right) + b \left( \displaystyle\sum_{k=1}^{m-1} \binom{m-1}{k}a^{k}b^{m-1-k} + \binom{m-1}{0}a^{0}b^{m-1}  \right) \\<br />
+            &amp;= a^m + \displaystyle\sum_{k=0}^{m-2} \binom{m-1}{k}a^{k+1}b^{m-1-k} + b^m + \displaystyle\sum_{k=1}^{m-1} \binom{m-1}{k}a^{k}b^{m-k}  \\<br />
+            &amp;= a^m + \displaystyle\sum_{k=1}^{m-1} \binom{m-1}{k-1}a^{k}b^{m-k} + b^m + \displaystyle\sum_{k=1}^{m-1} \binom{m-1}{k}a^{k}b^{m-k}  \\<br />
+            &amp;= a^m + b^m + \displaystyle\sum_{k=1}^{m-1} \left( \binom{m-1}{k-1} + \binom{m-1}{k}\right) a^{k}b^{m-k} \\<br />
+            &amp;= a^m + b^m + \displaystyle\sum_{k=1}^{m-1}\binom{m}{k}a^{k}b^{m-k} \\<br />
+            &amp;= \displaystyle\sum_{k=0}^{m}\binom{m}{k}a^{k}b^{m-k} \\<br />
+\end{align} $ </p>
+
+<p>となり, n=m のとき成り立つことを示せた.</p>
 
         </div>
         <footer class="article-footer">
-    <a data-url="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/" data-id="101d448a7ce19e68cc6b04fbd21b9c32" class="article-share-link">
+    <a data-url="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/" data-id="ddd4324756127fe014207fd5e228cf72" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-5/#disqus_thread" class="article-comment-link">
+    <a href="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -356,21 +379,14 @@ $$ \begin{align}
     
 <nav id="article-nav">
     
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-7/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="https://wtbacon.github.io/stat-basis/2019/05/23/the-answer-of-practice-3-1/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
-      <div class="article-nav-title">The Answer of Practice 1-7</div>
+      <div class="article-nav-title">The Answer of Practice 3-1</div>
     </a>
     
 
-    
-    <a href="https://wtbacon.github.io/stat-basis/2019/03/19/the-answer-of-practice-1-4/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">
-          Newer
-      </strong>
-      <div class="article-nav-title">The Answer of Practice 1-4</div>
-    </a>
     
 </nav>
 
@@ -420,7 +436,7 @@ $$ \begin{align}
                 <div class="item-thumbnail">
                     <a href="https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-2/" class="thumbnail">
                     
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 1-5" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 3-2" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -446,7 +462,7 @@ $$ \begin{align}
                 <div class="item-thumbnail">
                     <a href="https://wtbacon.github.io/stat-basis/2019/05/23/the-answer-of-practice-3-1/" class="thumbnail">
                     
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 1-5" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 3-2" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -472,7 +488,7 @@ $$ \begin{align}
                 <div class="item-thumbnail">
                     <a href="https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-12/" class="thumbnail">
                     
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 1-5" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 3-2" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -498,7 +514,7 @@ $$ \begin{align}
                 <div class="item-thumbnail">
                     <a href="https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-4/" class="thumbnail">
                     
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 1-5" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 3-2" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -524,7 +540,7 @@ $$ \begin{align}
                 <div class="item-thumbnail">
                     <a href="https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-8/" class="thumbnail">
                     
-                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 1-5" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://wtbacon.github.io/stat-basis/banners/modern-mathematical-statistics.jpg)" alt="The Answer of Practice 3-2" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
