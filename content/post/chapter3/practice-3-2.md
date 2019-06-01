@@ -84,7 +84,7 @@ $ \begin{align}
             &= \displaystyle\sum\_{k=0}^{m}\binom{m}{k}a^{k}b^{m-k} \\\\\
 \end{align} $ \
 
-となり, n=m のとき成り立つことを示せた. 
+となり, n=m のとき成り立つことを示せたので, 二項定理は成り立つ.
 
 
 
