@@ -18,45 +18,45 @@ disable_widgets = false
 
 離散一様分布の確率関数は \
 
-$ \begin{align} 
+$$ \begin{align} 
 p(x) = P(X = x | N) = \frac{1}{N}, x = 1, 2, ... , N \
-\end{align} $ 
+\end{align} $$ 
 
 であるから, 確率母関数 $G_X(s)$ は \
 
-$ \begin{align} 
+$$ \begin{align} 
   G_X(s) = \displaystyle\sum\_{k=1}^{N} s^k f(x) & = \frac{1}{N}\displaystyle\sum\_{k=1}^{N} s^k \\\\\
     & = \frac{S^{N+1} - S}{S-1} \\\\\
     & = \underline{\frac{S(S^N-1)}{N(S-1)}}
-\end{align} $
+\end{align} $$
 
 一般に, $ \begin{align} G_{X}^{(k)}(1) = E[X(X-1)\ldots(X-k+1)] \end{align} $ より, 平均 $E[X]$ は, \
 
-$ \begin{align}
+$$ \begin{align}
     E[X] = \left.\frac{d{G_X}(s)}{dt}\right|\_{s=1} &= \displaystyle\left.\frac{s(1-s^N)}{N(1-s)}\right|\_{s=1} \\\\\
         &= \left.\frac{1-s^N(1+N)+Ns^{N+1}}{N(1-s)^2}\right|\_{s=1} \\\\\
-\end{align}$
+\end{align}$$
 
   ここで, ロピタルの定理より, それぞれ2階微分して, 
 
-$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{align}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{align}
         &=  \displaystyle\lim_{s \to 1}\frac{N(1-N)(1+N)s^{N-2}+N^2(N+1)}{2N} \\\\\
         &=  \frac{N(1-N)(1+N)+N^2(N+1)}{2N} \\\\\
         &=  \underline{\frac{N+1}{2}}
-\end{align}$
+\end{align}$$
 
 また, $E[X(X-1)]$ は, \
 
-$ \begin{align}
+$$ \begin{align}
     E[X(X-1)] = \left.\frac{d^2{G_X}(s)}{dt^2}\right|\_{s=1} = \frac{N^2-1}{3} \\\\\
-\end{align}$
+\end{align}$$
 
 であるから, 分散 $Var(X)$ は, 
 
-$ \begin{align}
+$$ \begin{align}
     Var(X) = E[X(X-1)] + E[X] - (E[X])^2 &= \frac{N^2-1}{3} + \frac{N+1}{2} + (\frac{N+1}{2})^2\\\\\
                                          &= \underline{\frac{(N-1)(N+1)}{12}}
-\end{align}$
+\end{align}$$
 
 
 
