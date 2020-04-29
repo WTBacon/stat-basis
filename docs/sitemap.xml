@@ -3,8 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wtbacon.github.io/stat-basis/2019/06/02/the-answer-of-practice-3-4/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
+    <loc>https://wtbacon.github.io/stat-basis/categories/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/post/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/tags/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -15,6 +34,18 @@
   <url>
     <loc>https://wtbacon.github.io/stat-basis/2019/05/27/the-answer-of-practice-3-3/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/tags/chapter-3/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/categories/probability/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -35,6 +66,12 @@
   <url>
     <loc>https://wtbacon.github.io/stat-basis/2019/03/22/the-answer-of-practice-2-8/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wtbacon.github.io/stat-basis/tags/chapter-2/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -83,55 +120,14 @@
   </url>
   
   <url>
-    <loc>https://wtbacon.github.io/stat-basis/about/</loc>
-    <lastmod>2017-05-19T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wtbacon.github.io/stat-basis/tags/chapter-1/</loc>
     <lastmod>2019-03-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wtbacon.github.io/stat-basis/tags/chapter-2/</loc>
-    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/tags/chapter-3/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/post/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/categories/probability/</loc>
-    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wtbacon.github.io/stat-basis/tags/</loc>
-    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://wtbacon.github.io/stat-basis/about/</loc>
+    <lastmod>2017-05-19T21:49:20+02:00</lastmod>
   </url>
   
 </urlset>

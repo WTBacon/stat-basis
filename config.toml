@@ -10,7 +10,7 @@ paginate = 10
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 # Comment the themesDir option if you use this theme in production
-#themesDir = "../.."
+themesDir = "../.."
 publishDir = "docs"
 canonifyurls = true
 
@@ -20,9 +20,9 @@ canonifyurls = true
 
 [params]
     # Tell me who you are
-    author = "Stat-Basis"
-    bio = "Blogger - Programmer - Gopher"
-    location = "SHIBUYA MARK CITY"
+    author = "WTBacon"
+    bio = "ML Engineer"
+    location = "SHIBUYA"
     site_description = ""
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"

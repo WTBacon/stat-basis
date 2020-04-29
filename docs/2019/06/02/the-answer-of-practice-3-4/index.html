@@ -2,10 +2,10 @@
 <html lang="en-us">
 <head>
     <title>The Answer of Practice 3-4 &middot; Fundamentals of Mathematical Statistics</title>
-    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="generator" content="Hugo 0.55.6" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Stat-Basis">
+    <meta name="author" content="WTBacon">
     
       <meta name="description" content="The Answer of Practice 3-4">
     
@@ -35,7 +35,7 @@
 
 <meta itemprop="datePublished" content="2019-06-02T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-06-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="303">
+<meta itemprop="wordCount" content="322">
 
 
 
@@ -180,7 +180,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2019-06-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-06-02</time>
             &middot;
-            303
+            322
             words
             &middot;
             2
@@ -222,14 +222,19 @@
 
 <h2 id="q">Q.</h2>
 
-<p>超幾何分布において,$N\rightarrow \infty$, $M/N \rightarrow p$ とすると, 次のように2項分布 $\ Bin(K,p)\ $に収束することを示せ. <br />
+<p>超幾何分布において, $N\rightarrow \infty$, $M/N \rightarrow p$ とすると, 次のように2項分布 $\ Bin(K,p)\ $に収束することを示せ. <br />
 これは, 非復元抽出が$M/N \rightarrow p$という仮定のもとで$\ M, N\ $が大きいとき復元抽出で近似できることを意味する.</p>
 
 <p>$$ \begin{align}
-   \displaylines{E[X]=Kp, \quad Var(X)=\frac{N-K}{N-1}Kp(1-p)}
+    \lim_{N \to \infty}P(X=x|N,M,K) = \binom{K}{x}p^x(1-p)^{K-x}
 \end{align} $$</p>
 
 <h2 id="a">A.</h2>
+
+<p>超幾何分布において, $N\rightarrow \infty$ を考えると, <br />
+$$ \begin{align}
+    \displaystyle\lim<em>{N \to \infty}P(X=x|N,M,K) = \displaystyle\lim</em>{N \to \infty} \frac{\binom{M}{x}\binom{N-M}{K-x}}{\binom{N}{K}}
+\end{align} $$</p>
 
 <p>はじめに, $\displaystyle\sum_{x=0}^{K}P(X=x|N,M,K)=1$ について示す.  この式は, <br />
 $$ \begin{align}
@@ -661,7 +666,7 @@ $$ \begin{align}
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019
+      &copy; 2020
       Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

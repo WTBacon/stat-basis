@@ -6,23 +6,10 @@
     <description>Recent content on Fundamentals of Mathematical Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wtbacon.github.io/stat-basis/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>The Answer of Practice 3-4</title>
-      <link>https://wtbacon.github.io/stat-basis/2019/06/02/the-answer-of-practice-3-4/</link>
-      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://wtbacon.github.io/stat-basis/2019/06/02/the-answer-of-practice-3-4/</guid>
-      <description>Q. 超幾何分布において,$N\rightarrow \infty$, $M/N \rightarrow p$ とすると, 次のように2項分布 $\ Bin(K,p)\ $に収束することを示せ. これは, 非復元抽出が$M/N \rightarrow p$という仮定のもとで$\ M, N\ $が大きいとき復元抽出で近似できることを意味する.
-$$ \begin{align} \displaylines{E[X]=Kp, \quad Var(X)=\frac{N-K}{N-1}Kp(1-p)} \end{align} $$
-A. はじめに, $\displaystyle\sum_{x=0}^{K}P(X=x|N,M,K)=1$ について示す. この式は, $$ \begin{align} \binom{N}{K} = \displaystyle\sum_{x=0}^{K}\binom{M}{x}\binom{N-M}{K-x} \tag{1} \end{align} $$
-と書き直すことができるため, これを示せば良い. そのためには, $ \ \ (a+b)^N = (a+b)^M(a+b)^{N-M}$ の両辺をそれぞれ2項展開をして, $ \ a^{K}b^{N-K}$ の項の係数を比較することで示せる. それぞれ二項展開すると, $$ \begin{align} \displaystyle\sum_{k=0}^{N}\binom{N}{k}a^{k}b^{N-k} = \displaystyle\sum_{l=0}^{M}\binom{M}{l}a^{l}b^{M-l}\displaystyle\sum_{m=0}^{N-M}\binom{N-M}{m}a^{m}b^{N-M-m} \tag{2} \end{align} $$
-となり, 両辺から$a^{K}b^{N-K}$の係数を取り出して比較する.この時, $a^{K}b^{N-K} =(a^{x}b^{M-x}) \cdot (a^{K-x}b^{N-M-K+x})$ と分解できることに注意すると, (2)式の左側の$\ a^{x}b^{M-x}\ $の係数は$\ \binom{M}{x}\ $, 右側の$\ a^{K-x}b^{N-M-K+x}\ $の係数は$\ \binom{N-M}{K-x}\ $であり, その２つを掛けると$\ (a+b)^M(a+b)^{N-M}\ $となる.</description>
-    </item>
     
     <item>
       <title>The Answer of Practice 3-2</title>
