@@ -6,10 +6,24 @@
     <description>Recent content on Fundamentals of Mathematical Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wtbacon.github.io/stat-basis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Answer of Practice 2-1</title>
+      <link>https://wtbacon.github.io/stat-basis/2020/05/16/the-answer-of-practice-2-1/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/2020/05/16/the-answer-of-practice-2-1/</guid>
+      <description>Q. 次の関数が確率密度関数になるように正規化定数 $C$ を与えよ．また分布関数を求めよ．
+A. (1) $ \quad f(x)=Cx^{3}, \quad 0&amp;lt;x&amp;lt;2 $ 正規化定数は， $$ \begin{equation} \int_{-\infty}^{\infty} f_X(x) dx = \int_{0}^{2} Cx^{3} dx = C \left [ \frac{1}{4} x^{4} \right ]^{2}_{0} = 4C = 1 \\
+\therefore C = \frac{1}{4} \end{equation} $$
+分布関数は，$0&amp;lt;x&amp;lt;2$ のとき， $$ \begin{equation} F_X(x) = \int_{0}^{x} \frac{1}{4} x^{3} dx = \frac{1}{4} \left [ \frac{1}{4} x^{4} \right ]^{x}_{0} = \frac{1}{16} x^{4} \\
+\end{equation} $$
+$$ \begin{equation} \therefore F_X(x) = \begin{cases} \frac{1}{16} x^{4} &amp;amp; (0&amp;lt;x&amp;lt;2) \\[2ex] 0 &amp;amp; (x \leqq 0, 2 \leqq x) \end{cases} \end{equation} $$</description>
+    </item>
     
     <item>
       <title>The Answer of Practice 3-2</title>

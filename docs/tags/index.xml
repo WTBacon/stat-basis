@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Fundamentals of Mathematical Statistics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wtbacon.github.io/stat-basis/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>chapter-2</title>
+      <link>https://wtbacon.github.io/stat-basis/tags/chapter-2/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wtbacon.github.io/stat-basis/tags/chapter-2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chapter-3</title>
@@ -17,15 +26,6 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wtbacon.github.io/stat-basis/tags/chapter-3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chapter-2</title>
-      <link>https://wtbacon.github.io/stat-basis/tags/chapter-2/</link>
-      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://wtbacon.github.io/stat-basis/tags/chapter-2/</guid>
       <description></description>
     </item>
     
